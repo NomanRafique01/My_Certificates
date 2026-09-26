@@ -11,7 +11,7 @@ A curated showcase of verified certifications, professional courses, and industr
 - [🤖 OpenAI & Custom GPTs](#openai): **1** certificate
 - [⚖️ AI Ethics & Career Empowerment](#ai_ethics_and_career): **2** certificates
 - [🏅 Extra-Curricular Certificates](#extra_crricular_cert): **1** certificate
-- [📜 Miscellaneous & Other Certifications](#misc): **2** certificates
+- [📜 Other Certifications](#other): **2** certificates
 
 ---
 
@@ -278,16 +278,16 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ---
 
-<a id="misc"></a>
-## 📜 Miscellaneous & Other Certifications
+<a id="other"></a>
+## 📜 Other Certifications
 
 > Additional awards and professional development courses from HP Foundation and UNITAR.
 
 ### HP LIFE – AI for Beginners
 
 <p align="center">
-  <a href="Misc/82aeeb73-554e-4096-8546-c0802286287e_page-0001.pdf">
-    <img src="Misc/82aeeb73-554e-4096-8546-c0802286287e_page-0001.png" alt="HP LIFE – AI for Beginners" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="Other/82aeeb73-554e-4096-8546-c0802286287e_page-0001.pdf">
+    <img src="Other/82aeeb73-554e-4096-8546-c0802286287e_page-0001.png" alt="HP LIFE – AI for Beginners" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
   </a>
 </p>
 
@@ -297,8 +297,8 @@ A curated showcase of verified certifications, professional courses, and industr
 ### UNITAR UN CC:Learn – Climate Change: From Learning to Action
 
 <p align="center">
-  <a href="Misc/Certificate_of_Completion-images-0.pdf">
-    <img src="Misc/Certificate_of_Completion-images-0.png" alt="UNITAR UN CC:Learn – Climate Change: From Learning to Action" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="Other/Certificate_of_Completion-images-0.pdf">
+    <img src="Other/Certificate_of_Completion-images-0.png" alt="UNITAR UN CC:Learn – Climate Change: From Learning to Action" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
   </a>
 </p>
 
