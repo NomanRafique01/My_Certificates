@@ -10,9 +10,9 @@ POPPLER_PATH = r"C:\Program Files\Calibre2\app\bin"
 # Target directories
 CATEGORIES = {
     "Internship": BASE_DIR / "Internship",
+    "IBM_Cert": BASE_DIR / "IBM_Cert",
     "Anthropic_Academy": BASE_DIR / "Anthropic_Academy",
     "OpenAI": BASE_DIR / "OpenAI",
-    "IBM_Cert": BASE_DIR / "IBM_Cert",
     "AI_Ethics_and_Career": BASE_DIR / "AI_Ethics_and_Career",
     "Extra_Crricular_Cert": BASE_DIR / "Extra_Crricular_Cert",
     "Misc": BASE_DIR / "Misc",
@@ -113,9 +113,9 @@ def generate_readme():
     
     category_titles = {
         "Internship": "💼 Internship Certificate",
+        "IBM_Cert": "🔷 IBM Certifications",
         "Anthropic_Academy": "🎓 Anthropic Academy Certificates",
         "OpenAI": "🤖 OpenAI & Custom GPTs",
-        "IBM_Cert": "🔷 IBM Certifications",
         "AI_Ethics_and_Career": "⚖️ AI Ethics & Career Empowerment",
         "Extra_Crricular_Cert": "🏅 Extra-Curricular Certificates",
         "Misc": "📜 Miscellaneous & Other Certifications",
@@ -123,9 +123,9 @@ def generate_readme():
     
     category_descriptions = {
         "Internship": "Verified industry completion certificate for professional backend AI engineering internship experience.",
+        "IBM_Cert": "Industry credentials and digital badges awarded by IBM SkillsBuild for Agentic AI architecture and workflows.",
         "Anthropic_Academy": "Comprehensive 20-course certification series from Anthropic covering Claude architecture, prompt engineering, agentic skills, subagents, and Model Context Protocol (MCP).",
         "OpenAI": "Specialized certifications in OpenAI technologies, GPT customization, and prompt engineering workflows.",
-        "IBM_Cert": "Industry credentials and digital badges awarded by IBM SkillsBuild for Agentic AI architecture and workflows.",
         "AI_Ethics_and_Career": "Foundational certifications in artificial intelligence ethics, governance, and professional career development.",
         "Extra_Crricular_Cert": "Honors, competitive achievements, and inter-college quiz competition awards.",
         "Misc": "Additional awards and professional development courses from HP Foundation and UNITAR.",
@@ -181,9 +181,6 @@ def generate_readme():
                     lines.append('      </a>')
                     lines.append('      <br />')
                     lines.append(f'      <strong>{display_name}</strong>')
-                    lines.append('      <br />')
-                    if pdf_file.exists():
-                        lines.append(f'      <a href="{encoded_pdf}">📄 View PDF</a>')
                     lines.append('    </td>')
                 if len(chunk) < 4:
                     for _ in range(4 - len(chunk)):
@@ -222,8 +219,9 @@ def generate_readme():
             
             lines.append(f"### {display_name}\n")
             if pdf_file.exists():
-                lines.append(f"📄 **PDF Document:** [{pdf_file.name}]({encoded_pdf})\n")
-            lines.append(f"<p align=\"center\">\n  <img src=\"{encoded_png}\" alt=\"{display_name}\" width=\"720\" style=\"border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);\" />\n</p>\n")
+                lines.append(f"<p align=\"center\">\n  <a href=\"{encoded_pdf}\">\n    <img src=\"{encoded_png}\" alt=\"{display_name}\" width=\"720\" style=\"border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);\" />\n  </a>\n</p>\n")
+            else:
+                lines.append(f"<p align=\"center\">\n  <img src=\"{encoded_png}\" alt=\"{display_name}\" width=\"720\" style=\"border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);\" />\n</p>\n")
             lines.append("\n---\n")
 
     readme_path.write_text("\n".join(lines), encoding="utf-8")

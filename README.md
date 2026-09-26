@@ -6,9 +6,9 @@ A curated showcase of verified certifications, professional courses, and industr
 
 - **Total Certificates:** 28
 - [💼 Internship Certificate](#internship): **1** certificate
+- [🔷 IBM Certifications](#ibm_cert): **1** certificate
 - [🎓 Anthropic Academy Certificates](#anthropic_academy): **20** certificates
 - [🤖 OpenAI & Custom GPTs](#openai): **1** certificate
-- [🔷 IBM Certifications](#ibm_cert): **1** certificate
 - [⚖️ AI Ethics & Career Empowerment](#ai_ethics_and_career): **2** certificates
 - [🏅 Extra-Curricular Certificates](#extra_crricular_cert): **1** certificate
 - [📜 Miscellaneous & Other Certifications](#misc): **2** certificates
@@ -22,10 +22,26 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ### FlyRank – Backend AI Engineering Internship (Certificate of Completion)
 
-📄 **PDF Document:** [flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.pdf](Internship/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.pdf)
+<p align="center">
+  <a href="Internship/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.pdf">
+    <img src="Internship/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.png" alt="FlyRank – Backend AI Engineering Internship (Certificate of Completion)" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
+</p>
+
+
+---
+
+<a id="ibm_cert"></a>
+## 🔷 IBM Certifications
+
+> Industry credentials and digital badges awarded by IBM SkillsBuild for Agentic AI architecture and workflows.
+
+### IBM SkillsBuild – Make Agentic AI Work for You
 
 <p align="center">
-  <img src="Internship/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.png" alt="FlyRank – Backend AI Engineering Internship (Certificate of Completion)" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="IBM_Cert/MakeAgenticAIWorkforYou_Badge20260925-20-xj3ay.pdf">
+    <img src="IBM_Cert/MakeAgenticAIWorkforYou_Badge20260925-20-xj3ay.png" alt="IBM SkillsBuild – Make Agentic AI Work for You" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
 </p>
 
 
@@ -44,8 +60,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Capabilities and Limitations</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Capabilities%20and%20Limitations.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/AI%20Fluency%20%28Framework%20%26%20Fundations%29.pdf">
@@ -53,8 +67,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Fluency (Framework & Fundations)</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Fluency%20%28Framework%20%26%20Fundations%29.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/AI%20Fluency%20for%20Builders.pdf">
@@ -62,8 +74,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Fluency for Builders</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Fluency%20for%20Builders.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/AI%20Fluency%20for%20Educators.pdf">
@@ -71,8 +81,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Fluency for Educators</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Fluency%20for%20Educators.pdf">📄 View PDF</a>
     </td>
   </tr>
   <tr>
@@ -82,8 +90,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Fluency for Non-profit</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Fluency%20for%20Non-profit.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/AI%20Fluency%20for%20small%20businesses.pdf">
@@ -91,8 +97,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Fluency for small businesses</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Fluency%20for%20small%20businesses.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/AI%20Fluency%20for%20Students.pdf">
@@ -100,8 +104,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Fluency for Students</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Fluency%20for%20Students.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/AI%20Teaching%20Fluency.pdf">
@@ -109,8 +111,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>AI Teaching Fluency</strong>
-      <br />
-      <a href="Anthropic_Academy/AI%20Teaching%20Fluency.pdf">📄 View PDF</a>
     </td>
   </tr>
   <tr>
@@ -120,8 +120,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Build with Claude API</strong>
-      <br />
-      <a href="Anthropic_Academy/Build%20with%20Claude%20API.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Claude%20101.pdf">
@@ -129,8 +127,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Claude 101</strong>
-      <br />
-      <a href="Anthropic_Academy/Claude%20101.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Claude%20Code%20101.pdf">
@@ -138,8 +134,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Claude Code 101</strong>
-      <br />
-      <a href="Anthropic_Academy/Claude%20Code%20101.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Claude%20Code%20in%20Action.pdf">
@@ -147,8 +141,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Claude Code in Action</strong>
-      <br />
-      <a href="Anthropic_Academy/Claude%20Code%20in%20Action.pdf">📄 View PDF</a>
     </td>
   </tr>
   <tr>
@@ -158,8 +150,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Claude on Google Cloud</strong>
-      <br />
-      <a href="Anthropic_Academy/Claude%20on%20Google%20Cloud.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Claude%20Platform%20101.pdf">
@@ -167,8 +157,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Claude Platform 101</strong>
-      <br />
-      <a href="Anthropic_Academy/Claude%20Platform%20101.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Claude%20with%20Amazon%20Bedrock.pdf">
@@ -176,8 +164,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Claude with Amazon Bedrock</strong>
-      <br />
-      <a href="Anthropic_Academy/Claude%20with%20Amazon%20Bedrock.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Intro%20to%20agent%20skills.pdf">
@@ -185,8 +171,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Intro to agent skills</strong>
-      <br />
-      <a href="Anthropic_Academy/Intro%20to%20agent%20skills.pdf">📄 View PDF</a>
     </td>
   </tr>
   <tr>
@@ -196,8 +180,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Introduction to Claude Cowork</strong>
-      <br />
-      <a href="Anthropic_Academy/Introduction%20to%20Claude%20Cowork.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Introduction%20to%20MCP.pdf">
@@ -205,8 +187,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Introduction to MCP</strong>
-      <br />
-      <a href="Anthropic_Academy/Introduction%20to%20MCP.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/Introduction%20to%20Subagents.pdf">
@@ -214,8 +194,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>Introduction to Subagents</strong>
-      <br />
-      <a href="Anthropic_Academy/Introduction%20to%20Subagents.pdf">📄 View PDF</a>
     </td>
     <td width="25%" align="center" valign="top">
       <a href="Anthropic_Academy/MCP%20%28Advance%20Topics%29.pdf">
@@ -223,8 +201,6 @@ A curated showcase of verified certifications, professional courses, and industr
       </a>
       <br />
       <strong>MCP (Advance Topics)</strong>
-      <br />
-      <a href="Anthropic_Academy/MCP%20%28Advance%20Topics%29.pdf">📄 View PDF</a>
     </td>
   </tr>
 </table>
@@ -239,26 +215,10 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ### OpenAI – Certificate in OpenAI GPTs: Creating Your Own Custom AI
 
-📄 **PDF Document:** [Certificate in OpenAI GPTs Creating Your Own Custom AI_page-0001.pdf](OpenAI/Certificate%20in%20OpenAI%20GPTs%20Creating%20Your%20Own%20Custom%20AI_page-0001.pdf)
-
 <p align="center">
-  <img src="OpenAI/Certificate%20in%20OpenAI%20GPTs%20Creating%20Your%20Own%20Custom%20AI_page-0001.png" alt="OpenAI – Certificate in OpenAI GPTs: Creating Your Own Custom AI" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
-</p>
-
-
----
-
-<a id="ibm_cert"></a>
-## 🔷 IBM Certifications
-
-> Industry credentials and digital badges awarded by IBM SkillsBuild for Agentic AI architecture and workflows.
-
-### IBM SkillsBuild – Make Agentic AI Work for You
-
-📄 **PDF Document:** [MakeAgenticAIWorkforYou_Badge20260925-20-xj3ay.pdf](IBM_Cert/MakeAgenticAIWorkforYou_Badge20260925-20-xj3ay.pdf)
-
-<p align="center">
-  <img src="IBM_Cert/MakeAgenticAIWorkforYou_Badge20260925-20-xj3ay.png" alt="IBM SkillsBuild – Make Agentic AI Work for You" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="OpenAI/Certificate%20in%20OpenAI%20GPTs%20Creating%20Your%20Own%20Custom%20AI_page-0001.pdf">
+    <img src="OpenAI/Certificate%20in%20OpenAI%20GPTs%20Creating%20Your%20Own%20Custom%20AI_page-0001.png" alt="OpenAI – Certificate in OpenAI GPTs: Creating Your Own Custom AI" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
 </p>
 
 
@@ -271,10 +231,10 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ### AI and Career Empowerment – Noman Rafique
 
-📄 **PDF Document:** [ai-and-career-empowerment-noman-rafique_page-0001.pdf](AI_Ethics_and_Career/ai-and-career-empowerment-noman-rafique_page-0001.pdf)
-
 <p align="center">
-  <img src="AI_Ethics_and_Career/ai-and-career-empowerment-noman-rafique_page-0001.png" alt="AI and Career Empowerment – Noman Rafique" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="AI_Ethics_and_Career/ai-and-career-empowerment-noman-rafique_page-0001.pdf">
+    <img src="AI_Ethics_and_Career/ai-and-career-empowerment-noman-rafique_page-0001.png" alt="AI and Career Empowerment – Noman Rafique" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
 </p>
 
 
@@ -282,10 +242,10 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ### Certificate of Ethics of Artificial Intelligence
 
-📄 **PDF Document:** [Certificate of Ethics of Artificial Intelligence.pdf](AI_Ethics_and_Career/Certificate%20of%20Ethics%20of%20Artificial%20Intelligence.pdf)
-
 <p align="center">
-  <img src="AI_Ethics_and_Career/Certificate%20of%20Ethics%20of%20Artificial%20Intelligence.png" alt="Certificate of Ethics of Artificial Intelligence" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="AI_Ethics_and_Career/Certificate%20of%20Ethics%20of%20Artificial%20Intelligence.pdf">
+    <img src="AI_Ethics_and_Career/Certificate%20of%20Ethics%20of%20Artificial%20Intelligence.png" alt="Certificate of Ethics of Artificial Intelligence" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
 </p>
 
 
@@ -298,10 +258,10 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ### NUML – 1st Position Inter-Colleges Quiz Competition (Certificate of Appreciation)
 
-📄 **PDF Document:** [Numl certificate.pdf](Extra_Crricular_Cert/Numl%20certificate.pdf)
-
 <p align="center">
-  <img src="Extra_Crricular_Cert/Numl%20certificate.png" alt="NUML – 1st Position Inter-Colleges Quiz Competition (Certificate of Appreciation)" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="Extra_Crricular_Cert/Numl%20certificate.pdf">
+    <img src="Extra_Crricular_Cert/Numl%20certificate.png" alt="NUML – 1st Position Inter-Colleges Quiz Competition (Certificate of Appreciation)" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
 </p>
 
 
@@ -314,10 +274,10 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ### HP LIFE – AI for Beginners
 
-📄 **PDF Document:** [82aeeb73-554e-4096-8546-c0802286287e_page-0001.pdf](Misc/82aeeb73-554e-4096-8546-c0802286287e_page-0001.pdf)
-
 <p align="center">
-  <img src="Misc/82aeeb73-554e-4096-8546-c0802286287e_page-0001.png" alt="HP LIFE – AI for Beginners" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="Misc/82aeeb73-554e-4096-8546-c0802286287e_page-0001.pdf">
+    <img src="Misc/82aeeb73-554e-4096-8546-c0802286287e_page-0001.png" alt="HP LIFE – AI for Beginners" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
 </p>
 
 
@@ -325,10 +285,10 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ### UNITAR UN CC:Learn – Climate Change: From Learning to Action
 
-📄 **PDF Document:** [Certificate_of_Completion-images-0.pdf](Misc/Certificate_of_Completion-images-0.pdf)
-
 <p align="center">
-  <img src="Misc/Certificate_of_Completion-images-0.png" alt="UNITAR UN CC:Learn – Climate Change: From Learning to Action" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="Misc/Certificate_of_Completion-images-0.pdf">
+    <img src="Misc/Certificate_of_Completion-images-0.png" alt="UNITAR UN CC:Learn – Climate Change: From Learning to Action" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
 </p>
 
 
