@@ -79,11 +79,14 @@ def process_all():
     for file_path in sorted(BASE_DIR.iterdir()):
         if not file_path.is_file():
             continue
-        if file_path.name in ["process_certificates.py", "organize_certificates.py", "README.md"]:
+        if file_path.name.startswith(".") or file_path.name in ["process_certificates.py", "organize_certificates.py", "README.md"]:
             continue
         
         category = classify_root_file(file_path.name)
         target_dir = CATEGORIES[category]
+        if category == "Internship" and "flyrank" in file_path.name.lower():
+            target_dir = CATEGORIES["Internship"] / "FlyRank"
+            target_dir.mkdir(parents=True, exist_ok=True)
         stem = file_path.stem
         ext = file_path.suffix.lower()
         
@@ -122,7 +125,7 @@ def generate_readme():
     }
     
     category_descriptions = {
-        "Internship": "Verified industry completion certificate for professional backend AI engineering internship experience.",
+        "Internship": "Verified industry completion certificate and letter of recommendation for professional backend AI engineering internship experience.",
         "IBM_Cert": "Industry credentials and digital badges awarded by IBM SkillsBuild for Agentic AI architecture and workflows.",
         "Anthropic_Academy": "Comprehensive 20-course certification series from Anthropic covering Claude architecture, prompt engineering, agentic skills, subagents, and Model Context Protocol (MCP).",
         "OpenAI": "Specialized certifications in OpenAI technologies, GPT customization, and prompt engineering workflows.",
@@ -139,7 +142,7 @@ def generate_readme():
     total_certs = 0
     cat_counts = {}
     for cat_key, cat_folder in CATEGORIES.items():
-        pdfs = list(cat_folder.glob("*.pdf"))
+        pdfs = list(cat_folder.rglob("*.pdf"))
         cat_counts[cat_key] = len(pdfs)
         total_certs += len(pdfs)
         
@@ -157,7 +160,7 @@ def generate_readme():
         lines.append(f"## {title}\n")
         lines.append(f"> {desc}\n")
         
-        png_files = sorted(cat_folder.glob("*.png"), key=lambda p: p.name.lower())
+        png_files = sorted(cat_folder.rglob("*.png"), key=lambda p: p.name.lower())
         
         if not png_files:
             lines.append("_No certificates in this category yet._\n")
@@ -172,8 +175,10 @@ def generate_readme():
                     pdf_file = png_file.with_suffix(".pdf")
                     stem = png_file.stem
                     display_name = stem.replace("_", " ")
-                    encoded_png = f"{cat_key}/{urllib.parse.quote(png_file.name)}"
-                    encoded_pdf = f"{cat_key}/{urllib.parse.quote(pdf_file.name)}"
+                    rel_png = png_file.relative_to(BASE_DIR).as_posix()
+                    rel_pdf = pdf_file.relative_to(BASE_DIR).as_posix()
+                    encoded_png = urllib.parse.quote(rel_png, safe='/')
+                    encoded_pdf = urllib.parse.quote(rel_pdf, safe='/')
 
                     lines.append('    <td width="25%" align="center" valign="top">')
                     lines.append(f'      <a href="{encoded_pdf}">')
@@ -203,7 +208,9 @@ def generate_readme():
                 display_name = "NUML – 1st Position Inter-Colleges Quiz Competition (Certificate of Appreciation)"
             elif "MakeAgenticAIWorkforYou" in stem:
                 display_name = "IBM SkillsBuild – Make Agentic AI Work for You"
-            elif "flyrank" in stem:
+            elif "recommendation" in stem.lower():
+                display_name = "FlyRank – Letter of Recommendation (Backend AI Engineering)"
+            elif "flyrank" in stem.lower():
                 display_name = "FlyRank – Backend AI Engineering Internship (Certificate of Completion)"
             elif "ai-and-career-empowerment" in stem:
                 display_name = "AI and Career Empowerment – Noman Rafique"
@@ -214,8 +221,10 @@ def generate_readme():
             else:
                 display_name = stem.replace("_", " ")
 
-            encoded_png = f"{cat_key}/{urllib.parse.quote(png_file.name)}"
-            encoded_pdf = f"{cat_key}/{urllib.parse.quote(pdf_file.name)}"
+            rel_png = png_file.relative_to(BASE_DIR).as_posix()
+            rel_pdf = pdf_file.relative_to(BASE_DIR).as_posix()
+            encoded_png = urllib.parse.quote(rel_png, safe='/')
+            encoded_pdf = urllib.parse.quote(rel_pdf, safe='/')
             
             lines.append(f"### {display_name}\n")
             if pdf_file.exists():

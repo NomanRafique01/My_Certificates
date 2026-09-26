@@ -4,8 +4,8 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ## 📊 Overview
 
-- **Total Certificates:** 28
-- [💼 Internship Certificate](#internship): **1** certificate
+- **Total Certificates:** 29
+- [💼 Internship Certificate](#internship): **2** certificates
 - [🔷 IBM Certifications](#ibm_cert): **1** certificate
 - [🎓 Anthropic Academy Certificates](#anthropic_academy): **20** certificates
 - [🤖 OpenAI & Custom GPTs](#openai): **1** certificate
@@ -18,13 +18,24 @@ A curated showcase of verified certifications, professional courses, and industr
 <a id="internship"></a>
 ## 💼 Internship Certificate
 
-> Verified industry completion certificate for professional backend AI engineering internship experience.
+> Verified industry completion certificate and letter of recommendation for professional backend AI engineering internship experience.
 
 ### FlyRank – Backend AI Engineering Internship (Certificate of Completion)
 
 <p align="center">
-  <a href="Internship/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.pdf">
-    <img src="Internship/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.png" alt="FlyRank – Backend AI Engineering Internship (Certificate of Completion)" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  <a href="Internship/FlyRank/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.pdf">
+    <img src="Internship/FlyRank/flyrank-certificate-of-completion-backend-ai-engineering-f569eee5-d3c9-49b9-818e-541a5a9123f5.png" alt="FlyRank – Backend AI Engineering Internship (Certificate of Completion)" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
+</p>
+
+
+---
+
+### FlyRank – Letter of Recommendation (Backend AI Engineering)
+
+<p align="center">
+  <a href="Internship/FlyRank/flyrank-recommendation-letter-f569eee5-d3c9-49b9-818e-541a5a9123f5.pdf">
+    <img src="Internship/FlyRank/flyrank-recommendation-letter-f569eee5-d3c9-49b9-818e-541a5a9123f5.png" alt="FlyRank – Letter of Recommendation (Backend AI Engineering)" width="720" style="border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
   </a>
 </p>
 
