@@ -4,6 +4,7 @@ A curated showcase of verified certifications, professional courses, and industr
 
 ## 📊 Overview
 
+- [📄 Curriculum Vitae / Resume](#resume): **1** document (2 pages)
 - **Total Certificates:** 29
 - [💼 Internship Certificate](#internship): **2** certificates
 - [🔷 IBM Certifications](#ibm_cert): **1** certificate
@@ -12,6 +13,33 @@ A curated showcase of verified certifications, professional courses, and industr
 - [⚖️ AI Ethics & Career Empowerment](#ai_ethics_and_career): **2** certificates
 - [🏅 Extra-Curricular Certificates](#extra_crricular_cert): **1** certificate
 - [📜 Other Certifications](#other): **2** certificates
+
+---
+
+<a id="resume"></a>
+## 📄 Curriculum Vitae / Resume
+
+> Professional CV / Resume highlighting technical background in AI Engineering, Multi-Agent Architectures, Backend Systems, and Local LLMs.
+
+### Noman Rafique – Curriculum Vitae (Page 1)
+
+<p align="center">
+  <a href="https://github.com/NomanRafique01/My_Certificates/blob/main/Resume/Noman_Rafique_Resume.pdf">
+    <img src="https://raw.githubusercontent.com/NomanRafique01/My_Certificates/main/Resume/Noman_Rafique_Resume_page-1.png" alt="Noman Rafique – Curriculum Vitae (Page 1)" width="720" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
+</p>
+
+
+---
+
+### Noman Rafique – Curriculum Vitae (Page 2)
+
+<p align="center">
+  <a href="https://github.com/NomanRafique01/My_Certificates/blob/main/Resume/Noman_Rafique_Resume.pdf">
+    <img src="https://raw.githubusercontent.com/NomanRafique01/My_Certificates/main/Resume/Noman_Rafique_Resume_page-2.png" alt="Noman Rafique – Curriculum Vitae (Page 2)" width="720" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12);" />
+  </a>
+</p>
+
 
 ---
 
