@@ -163,6 +163,36 @@ def generate_readme():
             lines.append("_No certificates in this category yet._\n")
             continue
             
+        if cat_key == "Anthropic_Academy":
+            lines.append("<table>")
+            for i in range(0, len(png_files), 4):
+                chunk = png_files[i:i + 4]
+                lines.append("  <tr>")
+                for png_file in chunk:
+                    pdf_file = png_file.with_suffix(".pdf")
+                    stem = png_file.stem
+                    display_name = stem.replace("_", " ")
+                    encoded_png = f"{cat_key}/{urllib.parse.quote(png_file.name)}"
+                    encoded_pdf = f"{cat_key}/{urllib.parse.quote(pdf_file.name)}"
+
+                    lines.append('    <td width="25%" align="center" valign="top">')
+                    lines.append(f'      <a href="{encoded_pdf}">')
+                    lines.append(f'        <img src="{encoded_png}" alt="{display_name}" width="100%" style="border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.12); border: 1px solid #e1e4e8;" />')
+                    lines.append('      </a>')
+                    lines.append('      <br />')
+                    lines.append(f'      <strong>{display_name}</strong>')
+                    lines.append('      <br />')
+                    if pdf_file.exists():
+                        lines.append(f'      <a href="{encoded_pdf}">📄 View PDF</a>')
+                    lines.append('    </td>')
+                if len(chunk) < 4:
+                    for _ in range(4 - len(chunk)):
+                        lines.append('    <td width="25%"></td>')
+                lines.append("  </tr>")
+            lines.append("</table>\n")
+            lines.append("\n---\n")
+            continue
+
         for png_file in png_files:
             pdf_file = png_file.with_suffix(".pdf")
             stem = png_file.stem
